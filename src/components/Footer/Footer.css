@@ -1,0 +1,11 @@
+/* Search.css */
+/* Add any other styles you need for your search component */
+
+/* Sticky footer */
+footer {
+    position: relative; /* Set position to relative */
+    width: 100%;
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+  }
+  

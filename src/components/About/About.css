@@ -1,0 +1,131 @@
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainDiv div img {
+    width: 70%;
+    height: 70%;
+}
+
+.childDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.childDiv2 {
+    display: flex;
+    text-align: center;
+    line-height: 4rem;
+}
+.childDiv2 div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.aboutContent{
+    text-align: center;
+    width: 50%;
+}
+
+@media (max-width:768px) {
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .childDiv {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4rem;
+    }
+
+    .childDiv2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .message-top-Button {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        width: 100vw;
+    }
+    .childDiv2 .buttonsFl{
+        display: flex !important;
+        flex-direction: row !important;
+        width: 100vw;
+        margin-right: 25px;
+    }
+    .childDiv2 .buttonsFl button{
+        margin: 1px;
+        padding: 12px 28px;
+    }
+    .aboutContent{
+        text-align: center;
+        margin-right: 70px;
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1023px) {
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .childDiv {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4rem;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .childDiv2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4rem;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .childDiv button {
+        padding-left: 113px !important;
+    }
+
+    .message-top-Button {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        width: 100vw;
+    }
+
+    .childDiv2 .buttonsFl{
+        display: flex !important;
+        flex-direction: row !important;
+        width: 100vw;
+        margin-right: 25px;
+    }
+    .childDiv2 .buttonsFl button{
+        margin: 1px;
+        padding: 12px 28px;
+    }
+    .aboutContent{
+        text-align: center;
+        margin-right: 70px;
+        width: 100%;
+    }
+}

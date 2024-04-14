@@ -1,0 +1,8 @@
+@media (max-width:768px){
+    .searchParent{
+        width: 100vw;
+    }
+    .dropParent{
+        width: 90vw;
+    }
+}
